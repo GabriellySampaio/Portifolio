@@ -1,0 +1,263 @@
+body{
+    
+    background-image:-o-linear-gradient(45deg,#E6E6FA,#E6E6FA,#fd9dcd);
+    background-image: -webkit-linear-gradient(45deg,#E6E6FA,#E6E6FA,#fd9dcd	);
+    background-image: linear-gradient(45deg,#E6E6FA,#E6E6FA,#fd9dcd	);
+    background-attachment: fixed;
+    font-family:  'Roboto', sans-serif;
+    color: black;
+}
+#foto{
+        margin:40px;
+        border-radius:90%;
+        height: 200px;
+        width: 200px;
+      
+  }
+  
+  #info{
+    margin:20px 15px 0px 100px ;
+    background-color: #fd9dcd;
+    height: 500px;
+    width:20%;
+    text-align: center;
+    float: left;
+    border-radius: 5px; 
+    position: fixed;
+  }
+h5{
+    font-size: large;
+}
+h4{  
+    color: #808080;
+    font-weight: normal;
+    font-size:20px ;
+}
+#principal{
+    border:solid; 
+    border-radius: 5px; 
+    border-color: #E6E6FA;
+    background-color:#FFF0F5	;
+    float: right;
+    width: 60%;
+    margin: 20px 170px 0px 0px;
+}
+#botinho{
+    padding: 50px;
+    margin-top: 50px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white;
+}
+button{
+    padding:10px 30px;
+    background-color: black;
+    color: white;
+    font-size:small;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-radius: 30px;
+}
+#navbar ul {
+    
+    width: 97%;
+    font-family:'Roboto', sans-serif;
+    font-size:x-large;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#navbar li {
+    float: right;
+ }
+ #navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navbar li a:hover {
+    color: white;
+}
+#navbar li a:active{
+    color: #FF1493	;
+}
+#navbar .cor{
+    color: #FF1493	;
+}
+img{
+    width: 30px;
+    float: right;
+    margin:15px 0px 15px 0px;
+}
+.ulu {
+    position: fixed;
+        list-style-type: none;
+        margin: 20px 87%;
+        padding-bottom:100%;
+        width: 100px;
+        float: right;
+}
+.lili{
+    float: right;
+}
+.lili a {
+    display: block;
+    color:black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.icon{
+    margin:0px 35px 35px 35px;
+    
+}
+#conten{
+    margin: 35px;
+    text-align: left;
+}
+table{
+  width: 80%;
+    }
+th{
+    color: #808080;
+    font-weight: normal;
+    font-size:24px;
+    font-family: 'Montserrat', sans-serif;
+    height: 50px;
+}
+.linha{
+    border-top : #c4c0c0 solid 1px;
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+}
+.certo{
+    width: 15px;
+    height:15px;
+    float: none;
+    margin: 1px;
+}
+.dados{
+    float: left;
+    margin-right: 60px;
+    font-size: 15px;
+    width: 35%;
+    height: 200px;
+    
+    
+}
+#linguagensP p,#caracteristicas p{
+    margin: 10px;
+
+}
+#sobre{
+    font-size: large;
+}
+#tecnologias {
+    float: left;
+    height: 100%;
+    width: 100%;
+    font-size: large;
+}
+
+#tecnologias p{
+    margin-right: 54px;
+    float: left;
+}
+#tecnologias img{
+float: none;
+margin: 10px;
+
+}
+#formacao{
+    float: right;
+    width: 65%;
+    margin-top: 80px;
+}
+#formacao h5{
+    text-align: left;  
+    float: left;
+    width: 500px;
+    height: 20px;
+    padding: 5px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;    
+}
+#formacao .formCon{
+    width: 100%;
+    float: left;
+    text-align: left;
+}
+#formacao h6{
+    font-size: 17px;
+    color: #808080;
+}
+.til{
+    width: 32%;
+    float: left;
+text-align: center;
+height: 750px;
+
+}
+.til p{
+    margin-bottom:200px;
+    margin-left: 50px;
+    float: left;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+    width: 200px;
+    height: 20px;
+    background-color: #fd9dcd;
+}
+.conteudo h3{
+    text-align: center;
+    border: 1px solid #FF1493;
+    background-color: #fd9dcd;
+    border-radius: 5px;
+    padding: 25px;
+    font-size: 25px;
+}
+.projeto{
+    border: solid #808080 1px;
+    border-radius: 5px;
+    width: 25%;
+    text-align: center;
+    float: left;
+    margin: 20px;
+}
+.projeto h5{
+    border-bottom : solid #808080 1px;
+    background-color: #fd9dcd;
+    padding-top:20px ;
+    margin-top: 0;
+}
+.projeto button{
+    font-size: 15px;
+    color: black;
+    margin-bottom: 0;
+    border-radius: 1px;
+    width: 100%;
+    background-color:#E6E6FA;
+    border:none ;
+    border-color: #E6E6FA;
+}
+.projeto button:hover{
+    background-color: #fd9dcd;
+}
+.contato input{
+margin: 10px;
+width: 300px;
+}
+.contato{
+    text-align: right;
+    margin-right: 30%;
+}
+.contato #enviar{
+    width: 100px;
+    background-color: #fd9dcd;
+    border:none ;
+    padding: 10px;
+    border-radius: 5px;
+}
